@@ -46,4 +46,4 @@ jobs:
         with: 
           images: lucasriboli/conversao-temperatura:${{ github.run_number }} 
           manifests: |
-            ./k8s/deployment.yaml
+            ./K8S/deployment.yaml
